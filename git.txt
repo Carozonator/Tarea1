@@ -1,0 +1,23 @@
+  1  add        Agrega un archivo al index
+	git add README
+  2  checkout   Checkout a branch or paths to the working tree
+	git checkout nueva
+  3  clone      Clona el repositorio en el nuevo directo
+  4  commit     Guarda los cambios del repositorio
+	git commit -m "Commit inicial"
+  5  diff       Muestra cambio entre dos commits
+  6  fetch      Descarga objetos y referencias de otro repositorio
+  7  init       Crea un repositorio vacio
+	git init
+  8  log        Muestra los logs del commit
+	git log master..nueva
+  9  merge      Junta dos hilos haciendo uno
+	git merge nueva
+  10 mv         Mueve o renombra un archivo, un directorio o un symlink
+  11 pull       Descarga el repositorio haciendo merge
+  12 push       Actualiza las referencias remotas con los objetos asociados
+	git push -u origin master
+  13 rm         Borra archivos del respositorio
+  14 show       Muestra varios tipo de objetos
+  15 status     Muestra el estado del rbol del respositorio
+	git status
